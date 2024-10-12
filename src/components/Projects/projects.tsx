@@ -25,13 +25,13 @@ type Prop = {
 const projects: Project[] = [
   {
     id: uuid(),
-    title: 'v1-tobi.dev 🌍',
-    description: 'My Portfolio Website',
-    github: 'https://github.com/tobisamcode/v1-tobi.dev',
-    live: '',
-    stack: 'React + TypeScript + SASS + TailwindCSS',
-    isPrivate: false,
-    isLive: false,
+    title: 'PlaylistSwap',
+    description: 'A SaaS platform that enables users to transfer music playlists across various streaming services.',
+    github: '',
+    live: 'https://playlistswap.ng/',
+    stack: 'Typescript + Nodejs + Bull MQ + Redis + Nestjs + Mongo DB + Docker',
+    isPrivate: true,
+    isLive: true,
   },
 
   {
@@ -145,7 +145,7 @@ export default function Projects(props: Prop) {
 
   return (
     <div className="project">
-      <Helmet title="My Projects" name="Selected Projects" content="Selected Tobi Adesokan's Projects" />
+      <Helmet title="My Projects" name="Selected Projects" content="Selected Olasunkanmi's Projects" />
       <div className=" portfolio_showcase">
         {projects.map((project) => (
           <Project key={project.id} {...project} />

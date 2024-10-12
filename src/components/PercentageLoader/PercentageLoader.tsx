@@ -6,11 +6,13 @@ const PercentageLoader: React.FC = () => {
   const [percentage, setPercentage] = useState(0);
 
   useEffect(() => {
-    const interval = setInterval(() => {
-      setPercentage((prevPercentage) => (prevPercentage < 100 ? prevPercentage + 1 : 100));
-    }, 50);
+    const incrementPercentage = () => {
+      setPercentage((prev) => Math.min(prev + 1, 100));
+    };
 
-    return () => clearInterval(interval);
+    const intervalId = setInterval(incrementPercentage, 300); 
+
+    return () => clearInterval(intervalId);
   }, []);
 
   return (

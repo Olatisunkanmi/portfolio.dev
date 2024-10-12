@@ -50,7 +50,7 @@ function App() {
     <div className="App">
       {isLoading ? (
         <div className="flex flex-col justify-center  items-center  h-full w-full">
-          <div className="font-augustus text-[40px] "> {'<Tobi Adesokan/>'}</div>
+          <div className="font-augustus text-[40px] "> {'<Igbasan Olasunkanmi/>'}</div>
           <p className="font-mono w-[80%] text-center text-[#888888] ">
             ... crafting experiences, One line of a code at a time
           </p>

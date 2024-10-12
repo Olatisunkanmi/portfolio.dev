@@ -16,7 +16,7 @@ export default function Contact(props: IProp) {
 
   return (
     <div className="contact">
-      <Helmet title="Contact Me" name="Contact Tobi Adesokan" content="Reach out to Tobi Adesokan" />
+      <Helmet title="Contact Me" name="Contact Olasunkanmi" content="Reach out to Olasunkanmi" />
       <Form />
       <div className="go_button_container">
         <Link to="/resume">

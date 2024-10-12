@@ -27,7 +27,7 @@ const Features_Data: Feature[] = [
   {
     id: uuid(),
     title: 'Legit.ng',
-    sub_title: 'Tobi Adesokan: Student Makes First Class in Pure Mathematics, Graduates from University of Lagos',
+    sub_title: 'Olasunkanmi: Student Makes First Class in Pure Mathematics, Graduates from University of Lagos',
     date: 'jan 25, 2024',
     img: img2,
     link:
@@ -61,7 +61,7 @@ export default function Features(props: Prop) {
   }, []);
   return (
     <div>
-      <Helmet title="My Features" name="Selected Features" content="Selected Tobi Adesokan's Features" />
+      <Helmet title="My Features" name="Selected Features" content="Selected Olasunkanmi's Features" />
       <div className="feature_showcase">
         {Features_Data.map((feature) => (
           <Feature key={feature.id} {...feature} />
