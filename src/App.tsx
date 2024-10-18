@@ -10,7 +10,7 @@ import Projects from './components/Projects/projects';
 import Resume from './components/Resume/resume';
 import Header from './components/Utils/Header/header';
 import PercentageLoader from './components/PercentageLoader/PercentageLoader';
-import Features from './components/Features/features';
+// import Features from './components/Features/features';
 import { UseScrollToTop } from './hooks/useScrollToTop';
 
 function App() {
@@ -67,7 +67,7 @@ function App() {
                 <Route path="/resume" element={<Resume menu={menu} activeMenu={activeMenu} />} />
                 <Route path="/projects" element={<Projects menu={menu} activeMenu={activeMenu} />} />
                 <Route path="/contact" element={<Contact menu={menu} activeMenu={activeMenu} />} />
-                <Route path="/features" element={<Features menu={menu} activeMenu={activeMenu} />} />
+                {/* <Route path="/features" element={<Features menu={menu} activeMenu={activeMenu} />} /> */}
                 <Route element={<Error />} />
               </Routes>
             </div>
@@ -95,7 +95,7 @@ function App() {
                   <Route path="/resume" element={<Resume menu={menu} activeMenu={activeMenu} />} />
                   <Route path="/projects" element={<Projects menu={menu} activeMenu={activeMenu} />} />
                   <Route path="/contact" element={<Contact menu={menu} activeMenu={activeMenu} />} />
-                  <Route path="/features" element={<Features menu={menu} activeMenu={activeMenu} />} />
+                  {/* <Route path="/features" element={<Features menu={menu} activeMenu={activeMenu} />} /> */}
                   <Route element={<Error />} />
                 </Routes>
               </div>
