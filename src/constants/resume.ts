@@ -43,12 +43,41 @@ export type Resume = {
 const name = 'Igbasan Olasunkanmi';
 
 const bio = [
-  'As a graduate in Mathematics and a Software Engineer, I am driven by a passion for leveraging technology to tackle real-world challenges. Equipped with a robust understanding of Computer Science and Engineering principles, along with proficiency in programming languages like JavaScript, Python, Kotlin, and Java, I am continuously exploring avenues to expand my knowledge and apply my expertise in novel and inventive ways.',
-  'Beyond my academic endeavors, I have undertaken internships with prominent technology firms, enriching my skill set through involvement in intricate software initiatives. I thrive as a collaborative team member, relishing opportunities to engage with peers and contribute insights.',
-  'I am thrilled to embark on a journey of continual learning and advancement as a software engineer. I am enthusiastic about utilizing my skills and expertise to address complex challenges and contribute positively to our world.',
+  'As a software engineer, I am driven by a relentless pursuit to harness the power of technology and create solutions that address real-world challenges. Equipped with a robust understanding of computer science principles and proficiency in programming languages like JavaScript, Typescript, PHP, and Java, I continuously seek to expand my expertise and apply my skills in innovative ways.',
+  'As a backend engineer, I thrive on the challenge of designing scalable, reliable, and secure systems that power a wide range of applications. From developing SaaS platforms that enable seamless music playlist transfers to building fintech solutions for multi-currency crowdfunding campaigns, I have a proven track record of delivering impactful backend solutions.',
+  'What truly drives me, however, is the opportunity to continually learn and apply my skills in novel ways. I am passionate about staying at the forefront of industry trends and leveraging the latest advancements to create innovative solutions that make a tangible difference.',
+  'As I embark on the next chapter of my career, I am excited to collaborate with like-minded individuals, tackle complex challenges, and contribute to the advancement of the technology landscape. I am committed to leveraging my diverse expertise and unwavering dedication to positively impact our world.',
 ];
 
 const workExperiences: WorkExperience[] = [
+  {
+    company: 'Playlist Swap [Contract]',
+    role: 'Product Engineer',
+    startDate: 'February 2024',
+    endDate: 'Present',
+    achievements: [
+      'Developing a simple SaaS platform that enables users to transfer music playlists across various streaming services.',
+      'Implemented an event-driven architecture using Bull MQ and Redis to manage background tasks and playlist synchronization.',
+      'Integrated a token-based wallet system for transactions, to increrase user engagement by allowing users to use leftover tokens for future conversions, hence driving user retention.',
+      'Engineered a premium auto-sync feature to maintain consistency between source and destination playlists.',
+      'Designed and implemented a Pay-As-You-Go (PAYG) model, charging per playlist transfer instead of monthly subscriptions.',
+      'Enabled token purchases via bank transfers, strategically catering to the Nigerian market where bank transfers are preferred over card payments.',
+    ],
+    technologies: ['Nodejs', 'NestJs', 'TypeScript', 'MongoDB', 'Redis', 'Bull MQ'],
+  },
+  {
+    company: 'RodNav Logistics [Contract]',
+    role: 'Backend Developer',
+    startDate: 'June 2023',
+    endDate: 'March 2024',
+    achievements: [
+      'Implemented a "multiple stop" feature, allowing users to customize trip routes, adding multiple stops  and increase user satisfaction',
+      'Designed and implemented a real-time "Chat" feature, facilitating communication between users and drivers, enhancing overall user experience.',
+      'Implemented "RodNav Business," a new business model allowing companies to register, rent vehicle fleets, and earn revenue through driver rentals.',
+      'Implemented a "Wallet System" for managing drivers and business payments, streamlining financial transactions.',
+    ],
+    technologies: ['Nodejs', 'NestJs', 'TypeScript', 'SQL'],
+  },
   {
     company: 'ZojaTech [Full Time]',
     role: 'Backend Developer',
@@ -72,19 +101,7 @@ const workExperiences: WorkExperience[] = [
     ],
     technologies: ['Laravel', 'PHP', 'SQL', 'VueJS', 'Bootstrap', 'SQL'],
   },
-  {
-    company: 'RodNav Logistics [Contract]',
-    role: 'Backend Developer',
-    startDate: 'June 2023',
-    endDate: 'March 2024',
-    achievements: [
-      'Implemented a "multiple stop" feature, allowing users to customize trip routes, adding multiple stops  and increase user satisfaction',
-      'Designed and implemented a real-time "Chat" feature, facilitating communication between users and drivers, enhancing overall user experience.',
-      'Implemented "RodNav Business," a new business model allowing companies to register, rent vehicle fleets, and earn revenue through driver rentals.',
-      'Implemented a "Wallet System" for managing drivers and business payments, streamlining financial transactions.',
-    ],
-    technologies: ['Nodejs', 'NestJs', 'TypeScript', 'SQL'],
-  },
+ 
   {
     company: 'ChainFundit [Full Time]',
     role: 'Backend Developer',
@@ -101,7 +118,7 @@ const workExperiences: WorkExperience[] = [
 const skills: Skill[] = [
   {
     title: 'Languages',
-    body: ['JavaScript', 'TypeScript', 'Python', 'Kotlin', 'Java'],
+    body: ['JavaScript', 'TypeScript', 'PHP'],
   },
   {
     title: 'Frameworks/Libraries',
@@ -109,11 +126,14 @@ const skills: Skill[] = [
   },
   {
     title: 'Storages/Databases',
-    body: ['SQL', 'MongoDB', 'MariaDB', 'PostgreSQL'],
+    body: ['MySQL', 'MongoDB', 'MariaDB', 'PostgreSQL'],
   },
   {
     title: 'Tooling',
     body: [
+      'Redis',
+      'Bull MQ',
+      'Kafka',
       'Knex.js',
       'Docker',
       'Linux (Ubuntu, Fedora)',
@@ -125,6 +145,7 @@ const skills: Skill[] = [
       'Render',
       'Planetscale',
       'Digital Ocean',
+      'Zoho Suite'
     ],
   },
   {
