@@ -18,11 +18,12 @@ export default function Base({ menu }: any) {
         <div className="description">
           <p>
             <span>
-              I'm a <span className="highlight">Software Engineer 🧑🏻‍💻</span> and{' '}
-              <span className="highlight">a recent graduate in Mathematics 👨🏻‍🎓</span> with a keen enthusiasm for
-              problem-solving. I possess a solid understanding of computer science principles and have demonstrated
-              success in delivering code that is both high-quality and scalable.
-            </span>
+              I'm a <span className="highlight">Software Engineer 🧑🏻‍💻</span> with{' '}
+              <span className="highlight">a product-focused approach. 👨🏻‍🎓</span> with a keen enthusiasm for
+              problem-solving. I bring a rare combination of techniical expertise and a strong focus on user-centered design.
+            </span> 
+            A unique experince that allows me balance the intricates of backend development with a deep understanding of user needs and business operations.
+            
           </p>
         </div>
 
