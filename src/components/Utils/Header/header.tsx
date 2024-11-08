@@ -14,7 +14,7 @@ export default function Header() {
         <div className="logo_container">
           <Link to="/" className="flex gap-3 items-center">
             <span className="text-[40px] text-[#888] font-[300]"> {'<'}</span>{' '}
-            <div className="font-augustus text-[40px] ">Tobi Adesokan</div>{' '}
+            <div className="font-augustus text-[40px] ">Igbasan Olasunkanmi</div>{' '}
             <span className="text-[40px] font-[300] text-[#888]"> {'/>'} </span>
           </Link>
         </div>
@@ -42,12 +42,7 @@ export default function Header() {
                 </Link>
               </li>
 
-              <li>
-                <Link to="/features" onClick={toggleMenu}>
-                  Features
-                </Link>
-              </li>
-
+            
               <li>
                 <Link to="/resume" onClick={toggleMenu}>
                   Résumé

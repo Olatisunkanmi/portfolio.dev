@@ -16,7 +16,7 @@ export default function Resume(props: ResumeProp) {
 
   return (
     <div className="resume">
-      <Helmet title="My Resume" name="Tobi Adesokan Resume" content="Tobi Adesokan - Software Engineer Resume" />
+      <Helmet title="My Resume" name="Olasunkanmi Resume" content="Olasunkanmi - Software Engineer Resume" />
       <div className="resume_container">
         <div className="top_row">
           <h2>{resume.name}</h2>
@@ -98,7 +98,7 @@ export default function Resume(props: ResumeProp) {
           </section>
         </div>
 
-        <div className="divider">
+        {/* <div className="divider">
           <p>Certification</p>
           <span></span>
         </div>
@@ -112,7 +112,7 @@ export default function Resume(props: ResumeProp) {
               </p>
             ))}
           </section>
-        </div>
+        </div> */}
 
         <div className="divider">
           <p>Languages</p>
@@ -129,7 +129,7 @@ export default function Resume(props: ResumeProp) {
           </section>
         </div>
 
-        <div className="divider">
+        {/* <div className="divider">
           <p>Hobbies</p>
           <span></span>
         </div>
@@ -144,7 +144,7 @@ export default function Resume(props: ResumeProp) {
               </p>
             </article>
           </section>
-        </div>
+        </div> */}
 
         <div className="divider">
           <p>Projects</p>
